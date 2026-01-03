@@ -1,0 +1,134 @@
+
+/* https://colorhunt.co/palette/19183b708993a1c2bde7f2ef */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+
+    --aside-color: #E7F2EF;
+
+    --text-color: #ffffff;
+    --body-color: #708993;
+    --topico-color: black;
+
+    --text-fonte-1: 'Open Sans', sans-serif;
+    --text-fonte-2: 'Merriweather', serif;
+
+}
+
+
+
+/* Experiencia Page
+=========================================================================================================================================*/
+
+
+.main { 
+    margin-top: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-titulo {
+  font-family: var(--text-fonte-2);
+  font-size: clamp(1.8rem, 4vw, 3rem);        /* font-size: 1.6vw; */
+  font-weight: 700;
+  margin-bottom:  3%;
+  color: var(--text-color);
+}
+
+
+.main-texto {
+    font-size: clamp(0.7rem, 0.9vw, 0.85rem);
+    /* color: var(--text-color); */
+    font-family: var(--text-fonte-1);
+    text-wrap: wrap;
+    width: 45%;
+    /* margin-left: 30%; */
+    /* text-align: justify; */
+    /* line-height: 1.3em; */
+    margin-top: 2% ;
+    margin-left: 9% ;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.experiencia img {
+  height: 2em;
+}
+
+
+.conteudo p , .conteudo li {
+    font-size: clamp(1rem, 1.2vw, 1.15rem);
+    /* font-size: 0.95vw; */
+    color: var(--text-color);
+    font-family: var(--text-fonte-2);
+    text-wrap: wrap;
+    text-align: justify;
+    line-height: 1.3em;
+    margin-bottom: 1%;
+}
+
+#atividades {
+    margin-top: 5%;
+}
+
+.conteudo strong {
+  color: var(--topico-color);
+}
+
+.experiencia {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 3%;
+  max-width: 700px;
+}
+
+.experiencia summary {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    cursor: pointer;
+    list-style: none;
+}
+
+.experiencia summary::-webkit-details-marker {
+  display: none;
+}
+
+.experiencia summary::after {
+  content: " ▼";
+  font-size: 0.9em;
+}
+
+.experiencia[open] summary::after {
+  content: " ▲";
+}
+
+.conteudo {
+  margin-top: 10px;
+}
+
+
+
+
+
+/* ============================================================================================================================= */
+/* ============================================================================================================================= */
+
+@media (max-width: 740px) {
+
+  .main-section-texto {
+    margin-left: 0% ;
+    margin-top: 6% ;
+
+  }
+
+
+}

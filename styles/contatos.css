@@ -1,0 +1,116 @@
+
+/* https://colorhunt.co/palette/19183b708993a1c2bde7f2ef */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+
+    --aside-color: #E7F2EF;
+
+    --text-color: #ffffff;
+    --body-color: #708993;
+
+    --text-fonte-1: 'Open Sans', sans-serif;
+    --text-fonte-2: 'Merriweather', serif;
+
+}
+
+
+
+/* Contatos Pagea
+=========================================================================================================================================*/
+
+
+.main { 
+    margin-top: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-titulo {
+  font-family: var(--text-fonte-2);
+  font-size: clamp(1.8rem, 4vw, 3rem);        /* font-size: 1.6vw; */
+  font-weight: 700;
+  margin-bottom:  3%;
+  color: var(--text-color);
+}
+
+
+.main-section {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  background-color: var(--aside-color);
+  border-radius: 5px;
+
+}
+
+.section-svg {
+  height: 2em;
+}
+
+
+.contatos-titulo, .main-section p , .main-section a {
+  font-size: clamp(0.8rem, 0.9vw, 0.85rem);
+  white-space: nowrap;
+  margin-top: 5%;
+
+}
+
+
+.contatos-titulo {
+  font-family: var(--text-fonte-2);  
+  font-weight: 700;
+  margin-bottom:  3%;
+  color: var(--body-color);
+}
+
+.main-section-contatos {
+  display: grid;
+  margin-bottom: 8%;
+  grid-template-columns: 
+    max-content   /* ícone */
+    max-content /* título */
+    max-content; /* valor */
+  align-items: center;
+  column-gap: 24px;
+}
+
+
+.main-section-texto {
+    font-size: clamp(0.7rem, 0.9vw, 0.85rem);
+    /* color: var(--text-color); */
+    font-family: var(--text-fonte-1);
+    text-wrap: wrap;
+    width: 45%;
+    /* margin-left: 30%; */
+    /* text-align: justify; */
+    /* line-height: 1.3em; */
+    margin-top: 2% ;
+    margin-left: 9% ;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+
+
+
+/* ============================================================================================================================= */
+/* ============================================================================================================================= */
+
+@media (max-width: 740px) {
+
+  .main-section-texto {
+    margin-left: 0% ;
+    margin-top: 6% ;
+
+  }
+
+
+}

@@ -1,0 +1,332 @@
+
+
+/* https://colorhunt.co/palette/19183b708993a1c2bde7f2ef */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+
+    --aside-color: #8DA3AC;
+    --container-color: #7f969c; 
+    --borda-color: #00bcd4;
+  
+
+
+    --hover-color: #000000; 
+
+    --text-color: #ffffff;
+    --h2-color: #2B2B2B;
+  
+    --text-fonte-1: 'Open Sans', sans-serif;
+    --text-fonte-2: 'Merriweather', serif;
+
+}
+
+
+
+/* Main Page
+=========================================================================================================================================*/
+
+
+.main { 
+    margin-top: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.main h2, .main-titulo {
+  color: var(--text-color);
+}
+
+.main-titulo {
+  font-family: var(--text-fonte-2);
+  font-size: clamp(1.8rem, 4vw, 3rem);        /* font-size: 1.6vw; */
+  font-weight: 700;
+  margin-bottom:  3%;
+}
+
+
+.main-gif{
+    width: 30%;      
+    height: auto;
+    margin-bottom: 5%;
+}
+
+
+.main-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+  }
+
+
+.main-conteudo p {
+  font-size: clamp(1rem, 1.2vw, 1.15rem);     /* font-size: 0.95vw; */
+  color: var(--text-color);
+  font-family: var(--text-fonte-2);
+  text-wrap: wrap;
+  width: 45%;
+  margin-left: 30%;
+  text-align: justify;
+  line-height: 1.3em;
+  margin-bottom: 1%;
+}
+
+.main-conteudo p mark {
+  background-color:var(--hover-color);
+  color: var(--text-color);
+}
+
+
+#disciplinas {
+  margin: 2% 0% 1% 40%;
+  width: fit-content;
+}
+
+.main-conteudo ol {
+  display: flex;
+  font-size: 0.95vw;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 43%;
+  width: fit-content;
+  list-style-type: decimal; 
+  margin-bottom: 1%;
+}
+
+.main-aside {
+    position: fixed;
+    left: 78%;
+    padding: 0.6%;
+    background-color: var(--aside-color);
+}
+
+.main-aside-separacao {
+  height: 1px;
+  width: 100%;
+  background-color: var(--hover-color);
+
+}
+
+.main-aside ol {
+  gap: 10%;
+ justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.main-aside li {
+  margin-bottom: 8%;
+  font-size: clamp(0.8rem, 1vw, 0.95rem);      /* font-size: 0.9vw; */
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.main-aside h2 {
+  display: flex;
+  color: var(--h2-color);
+  font-size: clamp(1rem, 1.2vw, 1.15rem);   /* font-size: 0.9vw; */
+  font-weight: 600;
+  justify-content: center;
+}
+.section {
+  display: block;
+  background-color: var(--section-color);
+  height: 144px;
+}
+
+
+.aside-svg {
+  height: 2em;
+  margin-top: 1em;
+}
+
+.materias {
+    width: fit-content;
+    gap: 16px;
+    margin-left: 30%;
+    margin-bottom: 4.3%;
+    flex-wrap: wrap;
+    max-width: 45%;
+    display: flex;
+}
+
+.materias li {
+  background: var(--container-color);
+  border-left: 4px solid var(--borda-color);
+  padding: 1% 2%;
+
+}
+
+.materias h4 {
+  margin: 0;
+  font-size: clamp(0.8rem, 1vw, 0.95rem); /* font-size: 0.83vw; */
+}
+
+.materias span {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 19%;
+  max-width: 65%;
+  gap: 2%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.videos-container-video {
+  width: min-content;
+  background-color: var(--container-color);
+  margin-bottom: 1%;
+  border-radius: 10px;
+  padding: 1%;
+  border-left: 4px solid var(--borda-color);
+
+}
+
+#videos-container video {
+  position: relative;
+  height: auto;
+  min-width: 200px;
+  width: 16vw;
+  z-index: 1;
+  overflow: hidden;   /* corta qualquer “vazamento” visual */
+
+
+  
+}
+
+#videos-container h5, #videos-container h3 {
+  display: flex;
+  justify-content: center;
+  color: var(--text-color);
+  background-color: var(--borda-color);
+  font-family: var(--text-fonte-2);
+  border-radius: 5px;
+
+}
+
+#videos-container h3{
+  padding: 3%;
+  font-size: clamp(1rem, 1.2vw, 1.15rem);  /* font-size: 0.8vw; */
+  font-weight: 700;
+
+}
+
+#videos-container h5{
+  padding: 0.2%;
+  font-size: clamp(0.8rem, 1vw, 0.95rem); /* font-size: 0.72vw; */
+  font-weight: 400;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#videos-container a {
+  display: flex;
+  justify-content: center;
+  font-family: var(--text-fonte-2);
+  font-size: clamp(0.8rem, 1vw, 0.95rem); /* font-size: 0.7vw; */
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+
+
+#videos-container p{
+  display: flex;
+  width: fit-content;
+  color: var(--text-color);
+  font-family: var(--text-fonte-1);
+  font-size: clamp(0.8rem, 1vw, 0.95rem); /* font-size: 0.72vw; */
+  margin-left: 0%;
+  text-align: left;
+
+
+}
+
+/* ============================================================================================================================= */
+/* ============================================================================================================================= */
+
+/* Exclusivo do bloco de linguagens de programação */
+@media (max-width: 1280px) {
+
+  .main-aside {
+   position: unset;
+   height: fit-content;
+   margin-bottom: 10%;
+
+  }
+
+
+  
+  .videos-container {
+    max-width: 100%;
+    margin-left: 14%;
+
+  }
+
+
+  #disciplinas {
+    margin-left: 30%;
+
+  }
+}
+
+/* ============================================================================================================================= */
+
+@media (max-width: 685px) {
+
+  .main {
+    align-items: unset;
+  }
+
+  .main-titulo {
+    max-width: fit-content;
+    margin-left: 14%;
+  }
+
+  .main-gif {
+    margin-left: 28%;
+  }
+
+  .main-aside {
+    width: 65%;
+    margin-left: 11%;
+
+  }
+
+
+  .main-conteudo p {
+    margin-left: 11%;
+    line-height: 1.2em;
+    width: 64%
+  }
+
+  #disciplinas {
+    margin: 5% 0% 3% 10%;
+    width: 45%;
+  }
+
+
+  .materias {
+    gap: 8px;
+    margin-left: 9%;
+    max-width: 70%;
+  }
+
+  .videos-container {
+    margin-left: 2.5%;
+    width: 100%;
+
+  }
+
+}
+
+/* ============================================================================================================================= */
