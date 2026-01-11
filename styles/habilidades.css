@@ -77,7 +77,7 @@
   margin-bottom: 1%;
 }
 
-.main-conteudo p mark {
+  mark {
   background-color:var(--hover-color);
   color: var(--text-color);
 }
