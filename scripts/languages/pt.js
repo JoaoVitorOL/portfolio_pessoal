@@ -7,6 +7,29 @@ export const pt = {
   "header.sobremim": "Sobre mim",
 
 
+
+  "experiencia.titulo": "Minha Experiência",
+  "experiencia.empresa1": "Resumo da empresa:",
+  "experiencia.empresa2": `Empresa de <mark>Business Intelligence</mark> com mais de 25 anos,
+          especializada em fornecer ferramentas e soluções de análise de dados para ajudar empresas a tomar decisões estratégicas.
+          Utiliza Dashboards desenvolvidos individualmente para cada negócio.`,
+  "experiencia.periodo1": "Período:",
+  "experiencia.periodo2": "Agosto de 2025 - Outubro de 2025",
+  "experiencia.funcao1": "Função:",
+  "experiencia.funcao2": "<mark>Estagiário de Desenvolvimento de Software</mark>",
+  "experiencia.atividades1": "Atividades:",
+  "experiencia.atividades2": `Implementação de <mark>componentes e funcionalidades simples sob orientação.</mark>
+            <mark>Manutenção de código existente</mark>, correção de bugs e pequenas melhorias
+            Desenvolvimento de telas e interfaces (UI) seguindo protótipos
+            Suporte técnico básico a problemas reportados
+            <mark>Aprendizado colaborativo</mark> com desenvolvedores experientes.`,
+  "experiencia.recomendacao1": "Carta de Recomendação:",
+  "experiencia.recomendacao2": "Visualizar recomendação (.pdf)",
+  "experiencia.aviso": " Sente que esta página está um pouco vazia ainda? Você pode me ajudar a adquirir experiência e oportunidades de trabalho ! ",
+
+
+
+
   "habilidades.titulo": "Minhas Habilidades",
   "habilidades.linguagens": "Linguagens de Programação: ",
   "habilidades.consulta": "Linguagens de Consulta: ",
@@ -48,6 +71,25 @@ export const pt = {
   "habilidades.repositorio.descricao7": "Calculadora capaz de fazer o cálculo de: variância, desvio padrão, próximo valor na posição da sequência de Fibonacci, fatorial e logaritmos(base 10 e natural) além das operações básicas.",
   "habilidades.repositorio.tiulo7": "Jogo simples de terminal",
   "habilidades.repositorio.descricao8": "Jogo de roleta russa que roda no terminal, para dois jogadores. A mecânica principal é a aleatoriedade e a opção de escolher atirar em si (Possibilita a chance de um turno extra) ou em seu oponente (Para uma vitória mais rápida).",
+
+
+  
+
+  "contatos.titulo": "Meus Contatos",
+  "contatos.telefone": "Telefone",
+  "contatos.aviso": "Interessado em entrar em contato? Pois tenha certeza que eu estarei interessado em trabalhar convosco !",
+
+
+
+
+  "sobremim.titulo": "Sobre Mim",
+  "sobremim.texto1": "Olá! Meu nome é João Vitor, tenho 20 anos e sou um entusiasta de tecnologia e programação. Desde cedo, sempre tive uma curiosidade natural sobre como as coisas funcionam, o que me levou a explorar o mundo da informática e do desenvolvimento de software.",
+  "sobremim.texto2": `Atualmente, estou  focado em aprimorar minhas habilidades em <mark>Backend</mark> (Python, Java, C# ..) e o <mark>básico de Frontend.</mark> Na faculadade, estou vendo sobre <mark>Springboot</mark>, <mark>React</mark>, <mark>Machine Learning</mark>, <mark>Games</mark> ... Gosto de criar projetos que desafiem minha criatividade e me permitam aprender algo novo a cada dia.`,
+  "sobremim.texto3": "Além da programação, também sou apaixonado por música e jogos eletrônicos. Acredito que essas paixões complementam minha vida e me ajudam a manter um equilíbrio saudável entre trabalho e lazer.",
+  "sobremim.texto4": "Estou sempre aberto a novas oportunidades de aprendizado e colaboração. Se você quiser saber mais sobre mim ou discutir possíveis projetos, sinta-se à vontade para entrar em contato!",
+
+
+
 
 
   "footer.texto1": "© 2026. Todos os direitos reservados.",
