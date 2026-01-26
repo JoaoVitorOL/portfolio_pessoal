@@ -25,6 +25,5 @@ export async function carregarComponente(targetId, path) {
   applySavedLanguage();
 }
 
-
-/* Header e Footer devem ser inicializados para que os textos que possam ser traduzidos,
+/* Os componentes de Header e Footer devem ser inicializados para que os textos possam ser traduzidos e o programa seja devidamente inicializado,
    então são carregados em language-event.js */
