@@ -79,7 +79,8 @@ export const en = {
 
   "contatos.titulo": "My Contacts",
   "contatos.telefone": "Phone",
-  "contatos.aviso": " ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤInterested in calling me? You can be sure I'd be willing to work with you !", /* Added spaces to align the text to the right, don't fucking remove it */
+  "contatos.link": "Click here",
+  "contatos.aviso": " ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤInterested in calling me? You can be sure I'd be willing to work with you !", /* Added spaces to align text to the right, don't fucking remove it */
 
 
 
