@@ -77,6 +77,7 @@ export const pt = {
 
   "contatos.titulo": "Meus Contatos",
   "contatos.telefone": "Telefone",
+  "contatos.link": "Clique aqui",
   "contatos.aviso": "Interessado em entrar em contato? Pois tenha certeza que eu estarei interessado em trabalhar convosco !",
 
 

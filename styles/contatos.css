@@ -61,6 +61,10 @@
   color: var(--body-color);
 }
 
+.contatos-info {
+  font-family: var(--text-fonte-1)
+}
+
 .main-section-contatos {
   display: grid;
   margin-bottom: 8%;
