@@ -1,5 +1,5 @@
 import { carregarComponente } from "./component-loader.js";
-import { setLanguage, syncLanguageSelect } from "./i18n.js";
+import { setLanguage, syncLanguageSelect, setLanguageIcon} from "./i18n.js";
 
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -14,5 +14,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 document.addEventListener("change", e => {
     if (e.target.id === "idiomas-select") {
         setLanguage(e.target.value);
+        setLanguageIcon(e.target.value);
     }
 });
