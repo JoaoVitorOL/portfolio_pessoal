@@ -18,7 +18,7 @@ export function setLanguage(lang) {
 }
 
 export function applySavedLanguage() {
-  const lang = localStorage.getItem("lang") || "pt";
+  const lang = localStorage.getItem("lang") || "en";
   setLanguage(lang);
 }
 
@@ -26,6 +26,20 @@ export function syncLanguageSelect() {
   const select = document.getElementById("idiomas-select");
   if (!select) return;
 
-  const lang = localStorage.getItem("lang") || "pt";
+  const lang = localStorage.getItem("lang") || "en";
+  setLanguageIcon(lang);
   select.value = lang;
+
+}
+
+export function setLanguageIcon(lang) {
+    const img = document.getElementById("idiomas-imagem");
+    if (!img) return;
+
+    const flags = {
+        pt: "../assets/brasil.png",
+        en: "../assets/usa.png"
+    };
+
+    img.src = flags[lang] ?? flags.pt;
 }
