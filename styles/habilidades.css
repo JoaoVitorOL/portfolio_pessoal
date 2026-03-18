@@ -100,8 +100,9 @@
 }
 
 .main-aside {
-    position: fixed;
-    left: 78%;
+    position: unset;
+    margin-bottom: 10%;
+     height: fit-content;
     padding: 0.6%;
     background-color: var(--aside-color);
 }
@@ -115,7 +116,7 @@
 
 .main-aside ol {
   gap: 10%;
- justify-content: space-evenly;
+  margin-left: 4%;
   flex-wrap: wrap;
 }
 
@@ -254,15 +255,6 @@
 
 /* Exclusivo do bloco de linguagens de programação */
 @media (max-width: 1280px) {
-
-  .main-aside {
-   position: unset;
-   height: fit-content;
-   margin-bottom: 10%;
-
-  }
-
-
   
   .videos-container {
     max-width: 100%;

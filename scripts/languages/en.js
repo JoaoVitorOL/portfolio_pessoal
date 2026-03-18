@@ -45,11 +45,11 @@ export const en = {
     <mark>Frontend</mark>.
   `,
   "habilidades.main.parte2": `Regarding Backend, my main languages are currently <mark>Python</mark> and <mark>Java</mark>.
-     Futurely, I also <mark>intend to explore C#</mark>.`,
+     Im also learning <mark>C#</mark> and <mark>Kotlin</mark>.`,
   "habilidades.main.parte3": `During my journey at university, 
    I was introduced to many  market useful technologies : I utilize <mark>VsCode</mark> and <mark>Intellij</mark> for programming;
    Backend creation with <mark>Springboot</mark>; Endpoint tests done with <mark>Postman</mark> and temporary data base creation with
-   <mark>XAMPP</mark>; I made data base using <mark>Postgre</mark> and <mark>Dbeaver</mark>; And of course, <mark>Git</mark> and <mark>Github</mark> for version control.`,
+   <mark>XAMPP</mark>; Conteiner and image creation with <mark>Docker</mark>; I made data base using <mark>Postgre</mark> and <mark>Dbeaver</mark>; And of course, <mark>Git</mark> and <mark>Github</mark> for version control.`,
   "habilidades.main.parte4": `I have <mark>React</mark> basic knowledge.`,
   "habilidades.main.parte5": "My curriculum matrix includes subjects such as:",
   "habilidades.materias1": "Data Structures",

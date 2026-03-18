@@ -44,9 +44,9 @@ export const pt = {
     <mark>básicos em Frontend</mark>.
   `,
   "habilidades.main.parte2": `Em relação ao Backend, minhas linguagens principais atualmente são <mark>Python</mark> e <mark>Java</mark>.
-     Futuramente, também <mark>pretendo desbravar C#</mark>.`,
+     Também estou aprendendo <mark>C#</mark> e <mark>Kotlin</mark>.`,
   "habilidades.main.parte3": `Durante meu percurso na faculdade, fui introduzido a várias tecnologias úteis ao mercado: Utilizo <mark>VsCode</mark> e <mark>Intellij</mark> para programar;
-      Criação da parte de Backend com <mark>Springboot</mark>; Testes destes endpoints criados com o Spring utilizando <mark>Postman</mark> e criação de banco temporário com o <mark>XAMPP</mark>; Criação de banco de dados com <mark>Postgre</mark> e <mark>Dbeaver</mark>;  E claro, <mark>Git</mark> e <mark>Github</mark> para versionamento de arquivos.`,
+      Criação da parte de Backend com <mark>Springboot</mark>; Testes destes endpoints criados com o Spring utilizando <mark>Postman</mark> e criação de banco temporário com o <mark>XAMPP</mark>; Criação de contêiners e imagens <mark>Docker</mark> Criação de banco de dados com <mark>Postgre</mark> e <mark>Dbeaver</mark>;  E claro, <mark>Git</mark> e <mark>Github</mark> para versionamento de arquivos.`,
   "habilidades.main.parte4": `Possuo um conhecimento mais básico em <mark>React.</mark>`,
   "habilidades.main.parte5": "Minha matriz curricular inclui disciplinas como:",
   "habilidades.materias1": "Estrutura de Dados",
