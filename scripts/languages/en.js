@@ -35,6 +35,7 @@ export const en = {
   "habilidades.linguagens": "Programming Languages: ",
   "habilidades.consulta": "Query Languages: ",
   "habilidades.tecnologias": "Technologies: ",
+  "habilidades.engines": "Game engines: ",
   "habilidades.estilo": "Markup and Style Languages",
   "habilidades.main.parte1": `
     <mark>Software Engineering</mark> graduate at UniSatc (2024–2028),

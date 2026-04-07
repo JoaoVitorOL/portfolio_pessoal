@@ -34,6 +34,7 @@ export const pt = {
   "habilidades.linguagens": "Linguagens de Programação: ",
   "habilidades.consulta": "Linguagens de Consulta: ",
   "habilidades.tecnologias": "Tecnologias: ",
+  "habilidades.engines": "Game engines: ",
   "habilidades.estilo": "Linguagens de Marcação e Estilo",
   "habilidades.main.parte1": `
     Estudante de <mark>Engenharia de Software</mark> na UniSatc (2024–2028),
